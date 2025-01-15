@@ -1,0 +1,28 @@
+POST http://localhost:3333/videos
+Content-Type: application/json
+
+{
+    "title": "My Video",
+    "description": "A funny video about cats.",
+    "duration": 120
+}
+
+###
+
+GET http://localhost:3333/videos
+
+###
+
+PUT  http://localhost:3333/videos/c1dca9da-9a30-431a-8cd3-3d6563c1d232
+Content-Type: application/json
+
+{
+        "title": "My Video2",
+        "description": "A funny video about cats.",
+         "duration": 120
+}
+###
+
+DELETE  http://localhost:3333/videos/ec34d460-4016-45a7-81d4-53724ff35378
+
+###
